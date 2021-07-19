@@ -1,14 +1,20 @@
-import logo from "./logo.svg";
 import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <form onClick>
-        <input type="search" autoFocus="on" />
-        <input type="button" value="Search" />
-      </form>
-    </div>
+    <body>
+      <div className="container">
+        <h1>Weather Forecast</h1>
+        <form onClick>
+          <input type="search" autoFocus="on" />
+          <input type="button" value="Search" />
+        </form>
+        <h2>Ede</h2>
+      </div>
+      <footer>
+        <a source>Open-source code</a>, by <a>Aleksandra Rudyak</a>
+      </footer>
+    </body>
   );
 }
 
