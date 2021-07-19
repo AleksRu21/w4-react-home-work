@@ -1,20 +1,35 @@
 body {
-  color: pink;
+  background: white;
 }
 
 .container {
   display: block;
   margin: 0 auto;
-  background: black;
+  background: purple;
   border-radius: 40px;
   max-width: 1200px;
 }
 
 h1,
 h2 {
+  color: black;
   text-align: center;
+}
+
+.fas fa-cloud-sun {
+  color: blue;
+  display: block;
+  margin: 0 auto;
 }
 
 form {
   text-align: center;
+}
+
+footer {
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: blue;
 }
