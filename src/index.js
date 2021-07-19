@@ -7,6 +7,19 @@ import reportWebVitals from "./reportWebVitals";
 ReactDOM.render(
   <React.StrictMode>
     <Weather />
+    <footer>
+      <a
+        href="https://github.com/AleksRu21/w4-react-home-work"
+        target="_blank"
+        rel="noreferrer"
+      >
+        Open-source code
+      </a>
+      ,by{" "}
+      <a href="https://www.linkedin.com/in/aleksandra-rudyak/">
+        Aleksandra Rudyak
+      </a>
+    </footer>
   </React.StrictMode>,
   document.getElementById("root")
 );
