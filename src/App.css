@@ -5,7 +5,7 @@ body {
 .container {
   display: block;
   margin: 0 auto;
-  background: url(C:\Users\sasha\OneDrive\Desktop\home-work\src\photo-1560017896-a6bf1e2acfb1.jpg);
+  background: url("./photo-1560017896-a6bf1e2acfb1.jpg");
   border-radius: 40px;
   border: solid black;
   max-width: 800px;
